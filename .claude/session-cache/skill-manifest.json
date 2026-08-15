@@ -1,0 +1,536 @@
+[
+  {
+    "name": "audit-self",
+    "description": "Use to re-run the ForgeBee self-audit on demand — scores every skill, agent, and command against the scorecard. Writes timestamped findings and surfaces regressions since the last run.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\audit-self\\SKILL.md"
+  },
+  {
+    "name": "brainstorming",
+    "description": "Use when invoking /workflow --strict or asking to \"brainstorm/design before building\" — turns an idea into a written, approved design spec before any implementation.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\brainstorming\\SKILL.md"
+  },
+  {
+    "name": "checkpoint-preview",
+    "description": "Use after autonomous /workflow execution to walk the diff by concern (not by file) with risk-tagged hot spots — bridges agent autonomy to human judgment before debate or delivery.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\checkpoint-preview\\SKILL.md"
+  },
+  {
+    "name": "code-advocate",
+    "description": "Use when /workflow reaches the code debate phase — argues FOR implementation quality, defends completeness and correctness against the Skeptic in blind debate.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\code-advocate\\SKILL.md"
+  },
+  {
+    "name": "code-judge",
+    "description": "Use when /workflow code debate needs adjudication — rules on each item after reading blind Advocate and Skeptic cases. Approve, block, or flag.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\code-judge\\SKILL.md"
+  },
+  {
+    "name": "code-skeptic",
+    "description": "Use when /workflow reaches the code debate phase — argues AGAINST the implementation, finds bugs, security holes, missing requirements, tech debt.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\code-skeptic\\SKILL.md"
+  },
+  {
+    "name": "continuous-learning",
+    "description": "Use when reviewing learned patterns from recent sessions, processing pending observations, or evolving repeated behaviors into reusable skills, commands, or agents.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\continuous-learning\\SKILL.md"
+  },
+  {
+    "name": "elicitation",
+    "description": "Use after producing a plan or design to stress-test it via a named method (Pre-mortem, Red Team, Inversion, Stakeholder Round Table, etc.) — applies to OUTPUT, not requirements.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\elicitation\\SKILL.md"
+  },
+  {
+    "name": "forgebee-help",
+    "description": "Use when the user asks \"what commands are available\", \"how do I use ForgeBee\", \"what can ForgeBee do\", or needs a quick reference. Reads forgebee/INDEX.md as canonical source.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\forgebee-help\\SKILL.md"
+  },
+  {
+    "name": "forgebee-setup",
+    "description": "Use when initializing ForgeBee on a new project — sets up CLAUDE.md, PM system, and project memory. For command-list questions, invoke the `forgebee-help` skill.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\forgebee-setup\\SKILL.md"
+  },
+  {
+    "name": "investigate",
+    "description": "Use when handed a crash log, stack trace, or \"this used to work\" report — produces a forensic case file with evidence grading before code changes. Complements debugger-detective.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\investigate\\SKILL.md"
+  },
+  {
+    "name": "project-router",
+    "description": "Use at session start or when switching projects — detects stack (WordPress, Next.js, PHP, Node), tooling, styling system, database, and routes to the right conventions and guardrails.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\project-router\\SKILL.md"
+  },
+  {
+    "name": "requirements-advocate",
+    "description": "Use when /workflow reaches the requirements debate phase — argues FOR planning artifacts, defends quality, feasibility, and completeness in blind debate.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\requirements-advocate\\SKILL.md"
+  },
+  {
+    "name": "requirements-judge",
+    "description": "Use when /workflow requirements debate needs adjudication — rules on each item after reading blind Advocate and Skeptic cases. Approve, block, or flag.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\requirements-judge\\SKILL.md"
+  },
+  {
+    "name": "requirements-skeptic",
+    "description": "Use when /workflow reaches the requirements debate phase — argues AGAINST planning artifacts, finds gaps, risks, missing edge cases, flawed assumptions.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\requirements-skeptic\\SKILL.md"
+  },
+  {
+    "name": "review-accessibility",
+    "description": "Use when auditing UI changes for WCAG 2.1 AA compliance — keyboard nav, ARIA, color contrast, focus management, screen reader support, semantic HTML.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-accessibility\\SKILL.md"
+  },
+  {
+    "name": "review-all",
+    "description": "Use when about to push, open a PR, or asking for a thorough pre-ship review — covers code quality, security, performance, accessibility, docs, and best practices in one pass.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-all\\SKILL.md"
+  },
+  {
+    "name": "review-api",
+    "description": "Use when reviewing route handlers, REST/GraphQL endpoints, or API contracts — covers design, input validation, error shapes, auth, rate limiting, and REST consistency.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-api\\SKILL.md"
+  },
+  {
+    "name": "review-best-practices",
+    "description": "Use when reviewing code for SOLID violations, design pattern misuse, leaky abstractions, separation of concerns, or architecture-level smells.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-best-practices\\SKILL.md"
+  },
+  {
+    "name": "review-code",
+    "description": "Use when reviewing staged or recent code changes for logic errors, DRY violations, error handling gaps, type safety issues, or dead code — narrower than review-all.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-code\\SKILL.md"
+  },
+  {
+    "name": "review-code-style",
+    "description": "Use when checking adherence to project conventions — import order, naming standards, TypeScript patterns, React idioms, file organization. Not formatting (use a linter).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-code-style\\SKILL.md"
+  },
+  {
+    "name": "review-database",
+    "description": "Use when reviewing SQL migrations, queries, RLS/policy changes, schema modifications, or ORM access patterns for safety, performance, or correctness.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-database\\SKILL.md"
+  },
+  {
+    "name": "review-docs",
+    "description": "Use when reviewing code for missing docblocks, outdated comments, undocumented parameters, unexplained complex logic, or stale README sections.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-docs\\SKILL.md"
+  },
+  {
+    "name": "review-performance",
+    "description": "Use when investigating slowness or reviewing code for N+1 queries, memory leaks, expensive loops, missing caching, bundle bloat, or render bottlenecks.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-performance\\SKILL.md"
+  },
+  {
+    "name": "review-prompt",
+    "description": "Use when reviewing code that builds LLM features — prompt construction, tool/function definitions, model-output handling, RAG context, or agent loops. Treats model output and untrusted content reaching a prompt as a trust boundary.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-prompt\\SKILL.md"
+  },
+  {
+    "name": "review-security",
+    "description": "Use when auditing code for OWASP Top 10 vulnerabilities, injection flaws, broken auth, secret exposure, or dependency CVEs — typically before shipping or after auth/data-handling changes.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-security\\SKILL.md"
+  },
+  {
+    "name": "review-tests",
+    "description": "Use when reviewing test suites for coverage gaps, brittle mocks, missing edge cases, or untested code paths — runs after new code or before merging.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-tests\\SKILL.md"
+  },
+  {
+    "name": "review-wordpress",
+    "description": "Use when reviewing WordPress plugin or theme code for WP coding standards (WPCS), security (nonces, sanitization, escaping), hook naming, text domains, or plugin architecture.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\review-wordpress\\SKILL.md"
+  },
+  {
+    "name": "strategy-advocate",
+    "description": "Use when /growth reaches the strategy debate phase — argues FOR marketing strategy artifacts, defends quality, feasibility, and effectiveness in blind debate.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\strategy-advocate\\SKILL.md"
+  },
+  {
+    "name": "strategy-judge",
+    "description": "Use when /growth strategy debate needs adjudication — rules on each item after reading blind Advocate and Skeptic cases. Approve, block, or flag.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\strategy-judge\\SKILL.md"
+  },
+  {
+    "name": "strategy-skeptic",
+    "description": "Use when /growth reaches the strategy debate phase — argues AGAINST marketing strategy, finds weak positioning, audience gaps, flawed assumptions.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\strategy-skeptic\\SKILL.md"
+  },
+  {
+    "name": "surface-ambiguity",
+    "description": "Use when about to make a non-trivial choice with multiple valid interpretations — forces listing of options and the chosen one with rationale. Catches silent picks.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\surface-ambiguity\\SKILL.md"
+  },
+  {
+    "name": "terse-report",
+    "description": "Use when reporting to an orchestrator (/workflow, /team), not the user — emit telegraphic format keeping code/citations exact, dropping prose filler. Cuts ~65% of report tokens.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\plugins\\cache\\forgebee\\forgebee\\5.3.1\\skills\\terse-report\\SKILL.md"
+  },
+  {
+    "name": "01-brand-idea-discussion",
+    "description": "Use this skill whenever the user wants to explore, structure, or pressure-test a brand's idea and context before any strategy, visual-identity or design-system work begins. FIRST step of the brand workflow. Trigger on phrases like \"discussão de marca\", \"vamos discutir a ideia da marca\", \"brand discussion\", \"vamos definir a marca\", \"és um brand discovery analyst\", \"identidade visual\", \"design system\" (when at the very start), when the user types \"brand-idea-discussion\" or when the user invokes `/01-brand-idea-discussion`. Also trigger when the user hands over a free briefing (a sentence or a document) about a company/product and wants it turned into structured brand context. This is the FIRST step of the brand workflow and makes it self-contained — it does NOT need a PRD. It does NOT define a brand strategy, naming, logo, colour palette, typography, requirements, or any design tokens; those belong to later steps. Runs a guided discussion (problema → público → personalidade → restrições), researches 3-5 real competitors on the web and notes their visual language, and produces a single `01-brand-discussion.md` in European Portuguese.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\01-brand-idea-discussion\\SKILL.md"
+  },
+  {
+    "name": "02-brand-strategist",
+    "description": "Use this skill whenever the user wants to define a brand's strategy — positioning, personality, archetype, tone of voice, and naming/tagline — before any requirements, visual-identity or design work begins. SECOND step of the brand workflow, between the idea discussion and the requirements step. Trigger on phrases like \"estratégia de marca\", \"brand strategy\", \"vamos definir o posicionamento\", \"tom de voz da marca\", \"és um brand strategist\", when the user types \"brand-strategist\" or when the user invokes `/02-brand-strategist`. Also trigger when the user hands over a `01-brand-discussion.md` and wants it turned into positioning, personality and tone of voice. It reads ONLY the `01-brand-discussion.md` it is given (no PRD or prior context needed), runs a guided strategy conversation (posicionamento → personalidade/arquétipo → tom de voz → naming/tagline), and produces a single `02-brand-strategy.md` in European Portuguese. It makes NO visual decisions — no logo, colours, typography, or design tokens; those belong to later steps.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\02-brand-strategist\\SKILL.md"
+  },
+  {
+    "name": "03-brand-requirements",
+    "description": "Use this skill whenever the user wants to consolidate an agreed brand discussion and strategy into a REQUIREMENTS BRIEF that the visual-identity, design-system and brand-manual steps MUST obey. THIRD step of the brand workflow, after the strategy (`02-brand-strategy.md`) and before the visual identity (`04`). Trigger on phrases like \"requisitos da marca\", \"brand requirements\", \"brief da marca\", \"o que a identidade tem de cumprir\", \"consolidar os requisitos\", \"és um brand requirements analyst\", when the user types \"brand-requirements\" or when the user invokes `/03-brand-requirements`. Also trigger when the user hands over `01-brand-discussion.md` and `02-brand-strategy.md` and wants the agreed decisions and general directions turned into requirements the later artefacts must follow. Reads ONLY `01-brand-discussion.md` and `02-brand-strategy.md`, runs a focused conversation to confirm the synthesis and capture the requirements/guardrails for each downstream artefact, and produces a single `03-brand-requirements.md` in European Portuguese. It does NOT make creative decisions — no logo, final palette, typography choices, component design, or tokens; those belong to the visual-identity (04), design-system (05) and manual (06) steps.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\03-brand-requirements\\SKILL.md"
+  },
+  {
+    "name": "04-brand-visual-identity",
+    "description": "Use this skill whenever the user wants to translate an agreed brand requirements brief into a concrete visual identity — visual references, logo concept and SVGs, colour palette, typography, iconography/imagery, applications and visual principles — rendered as an HTML page. FOURTH step of the brand workflow, after the requirements brief (`03-brand-requirements.md`) and before the design system (`05`). Trigger on \"identidade visual\", \"visual identity\", \"vamos desenhar o logótipo\", \"paleta da marca\", \"referências visuais\", \"és um visual identity designer\", when the user types \"brand-visual-identity\" or `/04-brand-visual-identity`, or when the user hands over a `03-brand-requirements.md` to turn into a visual direction. Reads the `03-brand-requirements.md` given (with `02-brand-strategy.md` as optional context), researches 3-5 real references on the web, runs a guided phase-by-phase conversation, proposes options and confirms before fixing a direction, generates draft logo SVGs, and produces `04-brand-visual-identity.html` in European Portuguese — a self-contained page that SHOWS the identity. It decides the visual direction (logo, palette, typography, applications); the component-level token system, states and WCAG validation belong to the design-system step (05).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\04-brand-visual-identity\\SKILL.md"
+  },
+  {
+    "name": "04-seo-blog-writer",
+    "description": "Use this skill to write a single SEO-optimised blog article as a ready-to-publish standalone HTML document, driven by the user's chosen topic and obeying the project's SEO strategy. SECOND step of the SEO content workflow, after the SEO strategy (`04-seo.md`). Trigger on \"04-seo-blog-writer\", \"escreve um artigo de blog\", \"blog writer SEO\", \"novo post para o blog\", \"artigo sobre …\", \"és um SEO copywriter\", `/04-seo-blog-writer`, when the user types \"seo-blog-writer\", or when the user hands over `04-seo.md` and asks for a blog article. It is INDEPENDENT — it does NOT see the conversation that produced the strategy; it reads ONLY `04-seo.md` (keywords, content architecture/pillar-cluster, differentiation message, metadata & Schema.org formulas, URL/slug conventions, i18n) plus the topic the user names. Writes ONE article per run as `04-post-{NN}-{slug-post-title}.html` (NN = next sequential number, scanned from the output folder) — a full standalone HTML document with SEO `<head>` (title, meta description, canonical, Open Graph, `BlogPosting`/`Article` JSON-LD) and semantic `<body>` — AND maintains a cumulative `04-blog-assumptions.md` (created or updated, one section per post) recording the assumptions made (domain, publication date, author, URL), image suggestions, internal links and SEO notes. Asks when the topic, angle or target keyword is unclear. Does NOT define strategy, write landing pages (that is `05-seo-landing-page-writer`), or produce the implementation checklist (`06-seo-checklist`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\04-seo-blog-writer\\SKILL.md"
+  },
+  {
+    "name": "05-brand-design-system",
+    "description": "Use this skill whenever the user wants to turn a brand visual identity into a technical design system — OKLCH design tokens, a Tailwind v4/shadcn layer, a WCAG AA contrast gate, and living HTML reference page(s) of components. FIFTH step of the brand workflow, after the visual identity (`04-brand-visual-identity.html`) and before the brand manual (`06`). Trigger on \"design system\", \"sistema de design\", \"tokens OKLCH\", \"componentes da marca\", \"cores de texto/botões/cards\", \"és um design system engineer\", when the user types \"brand-design-system\" or `/05-brand-design-system`, or when the user hands over a `04-brand-visual-identity.html` to turn into a technical design system. Reads `04-brand-visual-identity.html` (and `03-brand-requirements.md` for scope), derives exact OKLCH values from the brand palette, produces a two-layer token set (agnostic base + Tailwind/shadcn layer), a `check-contrast.mjs` gate, and one or more living `05-brand-design-system.html` reference pages that import the real tokens and render colour, typography, spacing and components (text, titles, buttons, links, cards, controls) in real states with a light/dark toggle. Generates autonomously, asking only on real ambiguity. Does NOT design a new identity or write the brand manual.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\05-brand-design-system\\SKILL.md"
+  },
+  {
+    "name": "05-seo-landing-page-writer",
+    "description": "Use this skill to write a single SEO-optimised, conversion-oriented landing page for a vertical/segment as a ready-to-publish standalone HTML document, obeying the project's SEO strategy. THIRD step of the SEO content workflow, after the SEO strategy (`04-seo.md`). Trigger on \"05-seo-landing-page-writer\", \"escreve uma landing page\", \"landing page para [segmento]\", \"LP para freelancers/consultores/advogados\", \"página de segmento\", \"és um SEO copywriter de landing pages\", `/05-seo-landing-page-writer`, when the user types \"seo-landing-page-writer\", or when the user hands over `04-seo.md` and asks for a segment landing page. It is INDEPENDENT — it does NOT see the conversation that produced the strategy; it reads ONLY `04-seo.md` (vertical landing pages by segment, per-segment long-tail keywords, differentiation message, metadata & Schema.org formulas, URL/slug conventions, i18n) plus the segment the user names. Writes ONE landing page per run as `05-lp-{NN}-{segmento}.html` (NN = next sequential number, scanned from the output folder) — a full standalone HTML document with SEO `<head>` (title, meta description, canonical, Open Graph, `SoftwareApplication` + `FAQPage` JSON-LD) and a conversion-structured `<body>` (hero, segment pain, benefits, features, social-proof placeholders, FAQ, CTA) — AND maintains a cumulative `05-landing-page-assumptions.md` (created or updated, one section per segment) recording the honest notes to be completed with real data before publishing, a CTA alert (which call-to-actions must exist and where they point), assumptions, image suggestions and SEO/conversion notes. Asks when the segment or its angle is unclear. Does NOT define strategy, write blog articles (that is `04-seo-blog-writer`), or produce the implementation checklist (`06-seo-checklist`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\05-seo-landing-page-writer\\SKILL.md"
+  },
+  {
+    "name": "06-brand-manual",
+    "description": "'Use this skill whenever the user wants to turn a finished visual identity and design system into a client-facing brand manual / guidelines. SIXTH and final step of the brand workflow, after the visual identity (`04-brand-visual-identity.html`) and the design system (`05-brand-design-system.html`). Trigger on \"manual de marca\", \"brand manual\", \"brand guidelines\", \"normas gráficas\", when the user types \"brand-manual\" or `/06-brand-manual`, or when the user hands over a `04-brand-visual-identity.html` (and `05-brand-design-system`) to turn into a manual. Reads `04-brand-visual-identity.html` and the logo SVGs (plus `05-brand-design-system` for final colours, and `02`/`03` for rationale), and produces a self-contained `06-brand-manual.html` in European Portuguese: brand essence, logo (rendered inline; correct/incorrect uses, clear-space, sizes), colour (real swatches + HEX/RGB/CMYK), typography, tone of voice, and applications — digital and offline/print (cartão, sinalética, papelaria) — for a non-technical client, with no code jargon shown (no OKLCH/variables/tokens). Prints to PDF from the browser. Does NOT design a new identity or a design system.'",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\06-brand-manual\\SKILL.md"
+  },
+  {
+    "name": "06-seo-checklist",
+    "description": "Use this skill to produce an extensive, actionable SEO implementation checklist (online AND offline actions) for a project, derived from its SEO strategy. FOURTH and final step of the SEO content workflow, after the SEO strategy (`04-seo.md`). Trigger on \"06-seo-checklist\", \"checklist de SEO\", \"lista de ações de SEO\", \"o que falta implementar no SEO\", \"plano de implementação SEO\", \"checklist on-page e off-page\", `/06-seo-checklist`, when the user types \"seo-checklist\", or when the user hands over `04-seo.md` and asks for an implementation checklist. It is INDEPENDENT — it does NOT see the conversation that produced the strategy; it reads ONLY `04-seo.md` (technical SEO requirements, keywords, public pages, content architecture, segment LPs, metadata/Schema.org, URL/i18n, Core Web Vitals, local link building/off-page, roadmap, KPIs) and turns it into a comprehensive checklist. Writes `06-seo-checklist.md` — an extensive Markdown checklist organised by category (technical/on-page, content, off-page/local link building, offline/PR, analytics & measurement, i18n, per-phase roadmap), with checkboxes, owners and priorities. Mostly autonomous; asks only if the strategy is missing or critically ambiguous. Does NOT define strategy, write blog articles (`04-seo-blog-writer`), or write landing pages (`05-seo-landing-page-writer`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\06-seo-checklist\\SKILL.md"
+  },
+  {
+    "name": "a-04-saas-product-owner",
+    "description": "Use this skill whenever the user wants to write a Product Requirements Document (PRD) from a discovery, a risk assessment and an SEO strategy. FIRST step of branch A (SaaS), after the trunk SEO phase (`core-04-seo` → `04-seo.md`) and before the architect (`05-system-architecture.md`). Trigger on phrases like \"a-04-saas-product-owner\", \"product-owner\", \"escreve o PRD\", \"documento de requisitos de produto\", \"és um product owner e...\", \"define o MVP\", \"delimita o âmbito do produto\", \"saas-product-owner\", `/a-04-saas-product-owner`, or when the user provides `01-descoberta.md` and `04-seo.md` for a PRD. This is the PRD step between SEO strategy and architecture; it does NOT design a system, write data models, wireframes, specs, or an implementation plan. Works ONLY from the input files provided, never invents missing info (stops and asks), confirms scope/KPIs/prioritisation across separate gates, and produces a single `04-prd.md` in European Portuguese with measurable KPIs, a strictly-delimited MVP (including out-of-scope), MoSCoW-prioritised features, user flows, the public-page set inherited from the SEO strategy, and non-functional requirements (SSR/SEO, i18n PT/BR, performance).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\a-04-saas-product-owner\\SKILL.md"
+  },
+  {
+    "name": "a-05-saas-architect",
+    "description": "Use this skill to turn a SaaS product's PRD, SEO strategy and visual design into a system architecture — stack, data schema, the definitive route→rendering classification (SSR/Blade+islands vs SPA Inertia), and design-system mapping. FIFTH step of the SaaS workflow, after the product owner (`04-prd.md`) and SEO strategist (`04-seo.md`), and BEFORE the business analyst (`06-requirements.md`). Trigger on \"a-05-saas-architect\", \"arquitetura do sistema\", \"plano de arquitetura\", \"és um software architect Laravel\", \"saas-architect\", `/a-05-saas-architect`, or when the user hands over `04-prd.md`, `04-seo.md` and an external design file. Works only from the input files, classifies every route's rendering autonomously, confirms architecture and design mapping across two gates, and produces a single `05-system-architecture.md` in European Portuguese. It does NOT break work into implementation phases (that's the project manager, 07), write the Agile backlog (that's the business analyst, 06), or write code.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\a-05-saas-architect\\SKILL.md"
+  },
+  {
+    "name": "a-06-saas-business-analyst",
+    "description": "Use this skill to turn a PRD and a system architecture into a LIVING Agile product backlog — epics, user stories, Gherkin acceptance criteria, T-shirt estimates and a status column the developer keeps updated. SIXTH step of the SaaS workflow, after the architect (`05-system-architecture.md`) and before the project manager (`07`). Trigger on phrases like \"a-06-saas-business-analyst\", \"transforma o PRD em backlog\", \"escreve os requisitos Agile\", \"épicos e user stories\", \"critérios de aceitação\", \"és um business analyst Agile e...\", \"saas-business-analyst\", `/a-06-saas-business-analyst`, or when the user hands over `04-prd.md` and `05-system-architecture.md` to turn into a backlog. Works ONLY from the inputs provided (`04-prd.md`, `05-system-architecture.md`, optionally `01-descoberta.md` (Parte II — Risco)), never invents business rules (stops and asks), confirms epics / DoR-DoD / prioritisation in gates, then writes user stories (\"Como… quero… para…\") with Gherkin and estimates into a single `06-requirements.md` in European Portuguese — the living master plan that tracks what's built vs. pending and is retro-updated by the developer (08). Does NOT detail implementation specs (that's the project manager, 07) or write code.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\a-06-saas-business-analyst\\SKILL.md"
+  },
+  {
+    "name": "a-07-saas-project-manager",
+    "description": "Use this skill to turn a living Agile backlog and a system architecture into detailed, ordered implementation specs ready to hand to a coding agent. SEVENTH step of the SaaS workflow, after the business analyst (`06-requirements.md`) and the architect (`05-system-architecture.md`), before the developer (`08`). Trigger on \"a-07-saas-project-manager\", \"project manager\", \"divide o projeto em implementações\", \"plano de implementação\", \"prepara os requisitos para o programador\", \"próxima fase de implementação\", \"saas-project-manager\", `/a-07-saas-project-manager`, or when the user hands over `06-requirements.md` and `05-system-architecture.md` to break into implementation specs. Works only from the input files, confirms the full ordered implementation plan in a gate, then writes one detailed spec per implementation as `specs/07-FF-II-slug.md` (FF = implementation phase, II = sequential number) in European Portuguese — each a deliverable vertical slice with data model, backend, frontend, ordered tasks, acceptance criteria, verification commands and a ready-to-run developer prompt. Does NOT write code or modify the backlog.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\a-07-saas-project-manager\\SKILL.md"
+  },
+  {
+    "name": "a-08-saas-developer",
+    "description": "Use this skill to implement a single project implementation spec (`07-FF-II-slug.md`) as working Laravel + Inertia/React code, following the system architecture and the project conventions. EIGHTH and final step of the SaaS workflow, after the project manager (`07`). Trigger on \"a-08-saas-developer\", \"developer\", \"implementa a 07-FF-II\", \"implementa esta fase\", \"constrói esta implementação\", \"és um Laravel developer e...\", \"saas-developer\", `/a-08-saas-developer`, or when the user hands over a `07-FF-II-slug.md` spec to build. Reads the implementation spec plus `05-system-architecture.md` and `06-requirements.md`, reuses the starter kit (never reimplements Fortify/Sanctum/multitenancy/RBAC), implements the ordered tasks, runs the verification commands (migrations, Pest tests, build), and then marks the covered user stories as ✅ concluído in `06-requirements.md`. Works only from the spec and architecture; if a decision is missing, it stops and asks rather than inventing.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\a-08-saas-developer\\SKILL.md"
+  },
+  {
+    "name": "b-04-wp-architecture",
+    "description": "Use this skill to turn a WordPress project's discovery, risk assessment and SEO strategy into a high-level technical architecture — theme approach (block theme/FSE custom vs child vs bought), plugin families needed and why, the content model (Custom Post Types, taxonomies, ACF/custom fields), hosting/infrastructure, multilingual approach, performance and security baselines, and integrations. FIRST step of branch B (WordPress), after the trunk SEO phase (`core-04-seo` → `04-seo.md`) and before the requirements (`05-requirements.md`). Produces a LIVING `04-architecture.md` that is retro-fed: it separates the \"decision\" from the \"current state\" (which themes/plugins are actually installed and configured), so it tracks the project's real status over time. Trigger on \"b-04-wp-architecture\", \"arquitetura do site WordPress\", \"plano de arquitetura WordPress\", \"modelo de conteúdo / CPTs\", \"és um arquiteto WordPress\", \"wp-architecture\", `/b-04-wp-architecture`, or when the user hands over `01-descoberta.md` and `04-seo.md`. Works only from the input files, confirms the architecture across a gate, and writes `04-architecture.md` in European Portuguese. It decides WHAT and WHY (theme approach, plugin families, content model); the detailed theme spec is `b-07-wp-theme` and the detailed plugin list is `b-08-wp-plugins`. It does NOT write the page structure (that's requirements, 05) or build code (that's 09/10).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-04-wp-architecture\\SKILL.md"
+  },
+  {
+    "name": "b-05-wp-requirements",
+    "description": "Use this skill to turn a WordPress project's discovery, SEO strategy and architecture into a requirements document — the build broken into phases, plus the full page/sitemap structure where each page carries a content summary and its SEO intent. FIFTH step of the WordPress workflow, after the architecture (`04-architecture.md`) and before the SEO checklist (`06-seo-checklist.md`). Trigger on \"b-05-wp-requirements\", \"requisitos do site\", \"estrutura de páginas\", \"sitemap do projeto\", \"fases de construção do site\", \"és um analista de requisitos WordPress\", \"wp-requirements\", `/b-05-wp-requirements`, or when the user hands over `01-descoberta.md`, `04-seo.md` and `04-architecture.md`. Works from the input files, never invents pages or rules (stops and asks), confirms phasing and page structure in a gate, and produces a single `05-requirements.md` in European Portuguese: build phases, a complete page tree (institutional pages, blog, segment landing pages, CPT archives/singles) with per-page content summary and SEO intent (target keyword, title/meta formula, Schema.org), navigation, forms and functional requirements per page. It does NOT detail the theme (`07`), list plugins (`08`), produce the SEO checklist (`06`), or write content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-05-wp-requirements\\SKILL.md"
+  },
+  {
+    "name": "b-06-wp-seo-checklist",
+    "description": "Use this skill to produce, for a WordPress site, BOTH an extensive actionable SEO implementation checklist (online AND offline) AND one per-page SEO brief per page in the site structure. SIXTH step of the WordPress workflow, after the requirements (`05-requirements.md`); reads the SEO strategy (`04-seo.md`) for strategy and the requirements (`05-requirements.md`) for the concrete page structure. Trigger on \"b-06-wp-seo-checklist\", \"checklist de SEO do site\", \"SEO por página\", \"lista de ações de SEO WordPress\", \"o que falta no SEO\", \"wp-seo-checklist\", `/b-06-wp-seo-checklist`, or when the user hands over `04-seo.md` and `05-requirements.md` and asks for an SEO checklist / per-page SEO. Writes `06-seo-checklist.md` (an extensive Markdown checklist by category — technical/on-page, content, Schema.org, performance/CWV, i18n, off-page/local link building, offline/PR, measurement, per-phase roadmap — with checkboxes, owners and priorities, retro-fed as actions complete) AND one `06-seo-page-{slug}.md` per page (target keyword, title/meta filled per the strategy's formula, Schema.org, internal links, image/alt notes, indexability). Mostly autonomous; asks only if inputs are missing or critically ambiguous. Does NOT define strategy (`core-04-seo`), write page structure (`05`), write content (`11`/`12`), or detail theme/plugins (`07`/`08`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-06-wp-seo-checklist\\SKILL.md"
+  },
+  {
+    "name": "b-07-wp-theme",
+    "description": "Use this skill to write the detailed requirements specification for a WordPress site's theme — an exhaustive description of what the theme must have (block theme / Full Site Editing for WordPress 6.x+): templates and template parts derived from the page structure, theme.json design tokens and global styles, patterns/blocks, the admin control panel (Customizer/Site Editor options, theme settings), navigation, performance and accessibility requirements, and per-content-type templates for the CPTs. SEVENTH step of the WordPress workflow, after the requirements (`05-requirements.md`); also reads the architecture (`04-architecture.md`, theme approach + content model) and the per-page SEO (`06-seo-*`). Trigger on \"b-07-wp-theme\", \"requisitos do tema\", \"especificação do tema WordPress\", \"o que o tema tem de ter\", \"painel de controlo do tema\", \"block theme / FSE\", \"wp-theme\", `/b-07-wp-theme`, or when the user hands over `04-architecture.md` and `05-requirements.md` to spec the theme. Works from the input files, exhaustive in requirements, and produces a single `07-theme.md` in European Portuguese. It is the input for `b-09-wp-theme-developer` (which scaffolds the actual theme). It does NOT build the theme code (that's `09`), list plugins (that's `08`), or write page content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-07-wp-theme\\SKILL.md"
+  },
+  {
+    "name": "b-08-wp-plugins",
+    "description": "Use this skill to specify the plugins that will make up a WordPress site — concrete, named plugin recommendations organised by factor (SEO, security, performance, functionality, plus backups, forms, multilingual, e-commerce, analytics/consent), each with rationale, free vs premium, alternatives, and a clear \"market plugin vs build a custom plugin\" decision. EIGHTH step of the WordPress workflow, after the theme spec (`07-theme.md`); also reads the architecture (`04-architecture.md`, plugin families + integrations), the requirements (`05-requirements.md`, functional needs) and the risk assessment (`01-descoberta.md` (Parte II — Risco), security/maintenance/dependency risks). Trigger on \"b-08-wp-plugins\", \"que plugins instalar\", \"lista de plugins WordPress\", \"plugins de SEO/segurança/performance\", \"plugin próprio vs de mercado\", \"wp-plugins\", `/b-08-wp-plugins`, or when the user hands over `04-architecture.md` and `05-requirements.md` to choose plugins. Works from the input files, weighs each plugin as attack surface and maintenance cost, and produces a single `08-plugins.md` in European Portuguese. Where a need has no good market plugin, it flags \"develop a custom plugin\" as input for `b-10-wp-plugin-developer`. It does NOT build plugins (that's `10`), spec the theme (`07`), or write content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-08-wp-plugins\\SKILL.md"
+  },
+  {
+    "name": "b-09-wp-theme-developer",
+    "description": "Use this skill to scaffold and build the base structure of a WordPress block theme (Full Site Editing, WordPress 6.x+) from its theme specification — creating the real theme files (style.css, theme.json, templates/, parts/, patterns/, functions.php) so the theme can be activated and iterated on. NINTH step of the WordPress workflow and OPTIONAL — only invoked when the project actually needs a custom/child theme built. Reads the theme spec (`07-theme.md`) plus the architecture (`04-architecture.md`, theme approach + content model). Trigger on \"b-09-wp-theme-developer\", \"constrói o tema\", \"cria a estrutura do tema WordPress\", \"scaffold do block theme\", \"implementa o tema\", \"wp-theme-developer\", `/b-09-wp-theme-developer`, or when the user hands over `07-theme.md` and asks to build the theme. Implements the templates, template parts, theme.json tokens, patterns and theme-support from the spec; UI strings in European Portuguese via `__()`; then retro-updates the \"current state\" section of `04-architecture.md` (theme installed/configured). Works from the spec and architecture; if a decision is missing, it stops and asks rather than inventing. Does NOT define the theme spec (`07`), build plugins (`10`), or write page content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-09-wp-theme-developer\\SKILL.md"
+  },
+  {
+    "name": "b-10-wp-plugin-developer",
+    "description": "Use this skill to scaffold and build the base structure of a single custom WordPress plugin — creating the real plugin files (main plugin file with header, includes/, activation/deactivation hooks, optional CPT/taxonomy/REST/blocks) so the plugin can be activated and iterated on. TENTH step of the WordPress workflow and OPTIONAL — only invoked when the project actually needs a custom plugin built (a \"develop a custom plugin\" item the plugin spec flagged, or a need the user names at invocation). It is GENERIC: which plugin to build comes from the plugin spec (`08-plugins.md`, the \"plugins próprios\" section) or from the user at invocation. Also reads the architecture (`04-architecture.md`, content model + integrations). Trigger on \"b-10-wp-plugin-developer\", \"constrói o plugin\", \"cria um plugin WordPress\", \"scaffold de plugin próprio\", \"desenvolve o plugin X\", \"wp-plugin-developer\", `/b-10-wp-plugin-developer`, or when the user hands over `08-plugins.md` (or a plugin brief) and asks to build a plugin. Implements one plugin per run following WordPress plugin conventions; UI strings in European Portuguese via `__()`; escapes output; then retro-updates the \"current state\" section of `04-architecture.md`. Works from the spec/brief and architecture; if scope is missing, it stops and asks rather than inventing. Does NOT choose plugins (`08`), build the theme (`09`), or write content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-10-wp-plugin-developer\\SKILL.md"
+  },
+  {
+    "name": "b-11-wp-blog-writer",
+    "description": "Use this skill to write a single SEO-optimised blog article for a WordPress site as ready-to-publish content (a standalone HTML document whose body is clean, block-editor-friendly markup), driven by the user's chosen topic and obeying the project's SEO strategy. WordPress content skill, after the SEO strategy (`04-seo.md`); optionally reads the requirements (`05-requirements.md`) for the concrete blog/page structure. Trigger on \"b-11-wp-blog-writer\", \"escreve um artigo de blog para WordPress\", \"novo post WordPress\", \"artigo para o site\", \"és um SEO copywriter WordPress\", `/b-11-wp-blog-writer`, when the user types \"wp-blog-writer\", or when the user hands over `04-seo.md` and asks for a blog article. It reads `04-seo.md` (keywords, content architecture/pillar-cluster, differentiation message, metadata & Schema.org formulas, permalink/slug conventions, i18n) plus the topic the user names. Writes ONE article per run as `11-post-{NN}-{slug-post-title}.html` (NN = next sequential number, scanned from the output folder) — a standalone HTML document with an SEO `<head>` for preview AND a clean semantic `<body>` ready to paste into the WordPress block editor — AND maintains a cumulative `11-blog-assumptions.md` recording the assumptions, the SEO-plugin fields to fill (focus keyword, SEO title, meta description, slug), image suggestions, internal links and Schema notes. Asks when the topic, angle or target keyword is unclear. Does NOT define strategy (`core-04-seo`), write landing pages (`12`), or produce the SEO checklist (`06`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-11-wp-blog-writer\\SKILL.md"
+  },
+  {
+    "name": "b-12-wp-landing-page-writer",
+    "description": "Use this skill to write a single SEO-optimised, conversion-oriented landing page for a vertical/segment of a WordPress site as ready-to-publish content (a standalone HTML document whose body is clean, block-editor-friendly markup), obeying the project's SEO strategy. WordPress content skill, after the SEO strategy (`04-seo.md`); optionally reads the requirements (`05-requirements.md`) for the concrete segment-page structure. Trigger on \"b-12-wp-landing-page-writer\", \"escreve uma landing page para WordPress\", \"landing page para [segmento]\", \"página de segmento\", \"LP para [vertical]\", \"és um copywriter de landing pages WordPress\", `/b-12-wp-landing-page-writer`, when the user types \"wp-landing-page-writer\", or when the user hands over `04-seo.md` and asks for a segment landing page. It reads `04-seo.md` (vertical landing pages by segment, per-segment long-tail keywords, differentiation message, metadata & Schema.org formulas, permalink/slug conventions, i18n) plus the segment the user names. Writes ONE landing page per run as `12-lp-{NN}-{segmento}.html` (NN = next sequential number, scanned from the output folder) — a standalone HTML document with an SEO `<head>` for preview AND a conversion-structured `<body>` (hero, segment pain, benefits, features, social-proof placeholders, FAQ, CTA) ready to paste into the WordPress block editor — AND maintains a cumulative `12-landing-page-assumptions.md` recording assumptions, the SEO-plugin fields to fill, a CTA alert, image suggestions and Schema notes. Asks when the segment or angle is unclear. Does NOT define strategy (`core-04-seo`), write blog articles (`11`), or produce the SEO checklist (`06`).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\b-12-wp-landing-page-writer\\SKILL.md"
+  },
+  {
+    "name": "core-00-intake",
+    "description": "Use this skill as the ORCHESTRATOR of the Closs Digital workflow — the intake router that starts every project and routes between phases. Trigger on \"core-00-intake\", \"novo projecto\", \"intake\", \"orquestrador\", \"que passo se segue\", \"onde estamos no workflow\", \"roteiro do projecto\", `/core-00-intake`, when the user hands over a client brief/form to start a project, or when the user asks which skill/phase comes next in an ongoing project. TWO modes: (1) INTAKE — reads the raw brief (n8n form output, client e-mail, or a short guided conversation), classifies the scenario (A SaaS · B WordPress · C WooCommerce · D Landing Page), fixes the depth of each phase from the §3 depth matrix, and produces `specs/00-brief.md` with the project roadmap (which skills, in which order, at which depth); (2) ROUTER — in an existing project, inspects `specs/` to see which artefacts exist and tells the user the next phase/skill, without running it. It does NOT run any phase itself — it routes. Minimal token weight by design: no web research, no long analysis; classification and routing only.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\core-00-intake\\SKILL.md"
+  },
+  {
+    "name": "core-01-descoberta",
+    "description": "Use this skill for PHASE 1 of the common trunk (Descoberta & Risco) of any Closs Digital project — SaaS (A), WordPress site (B), WooCommerce store (C), or Landing Page (D). It replaces the former 01-saas-idea-discussion, 01-wp-idea-discussion, 02-saas-risk-assessor and 02-wp-risk-assessor. Trigger on phrases like \"descoberta\", \"vamos discutir uma ideia\", \"tenho uma ideia\", \"tenho um site/loja/landing para fazer\", \"product discovery\", \"validar uma ideia\", \"avaliação de risco\", \"matriz de risco\", \"o que pode correr mal neste projecto\", when the user types \"core-01-descoberta\" or invokes `/core-01-descoberta`, or when a `specs/00-brief.md` exists and phase 1 has not run yet. Also trigger when the user hands over a free briefing about a product/site/store/landing and wants it turned into structured discovery. Runs in TWO stages with a gate between them: (1) guided discovery conversation (problema → público → proposta de valor → concorrência com pesquisa web → modelo de negócio), (2) risk assessment category by category with a probability × impact matrix and top 3 kill-switch risks. Depth adapts to the scenario (A completo, B leve, C médio, D leve) per the §3 depth matrix. Produces a SINGLE `specs/01-descoberta.md` in European Portuguese. It does NOT write marketing plans, SEO strategy, requirements, architecture, or specs — those belong to later phases (core-02-marketing, core-04-seo, and the scenario branches).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\core-01-descoberta\\SKILL.md"
+  },
+  {
+    "name": "core-02-marketing",
+    "description": "Use this skill for PHASE 2 of the common trunk (Posicionamento & Marketing) of any Closs Digital project — SaaS (A), WordPress site (B), WooCommerce store (C), or Landing Page (D). SECOND step of the trunk, after core-01-descoberta and before the brand phase (03) and core-04-seo. Trigger on phrases like \"posicionamento\", \"plano de marketing\", \"go-to-market\", \"plano de lançamento\", \"canais de aquisição\", \"funil de conversão\", \"és um estratega de marketing\", when the user types \"core-02-marketing\" or invokes `/core-02-marketing`, or when the user hands over a `01-descoberta.md` and wants the positioning and launch/channel plan. Depth adapts to the scenario (A completo/go-to-market, B leve, C médio/aquisição+retenção, D completo — CRO, funil e Ads são o núcleo do cenário D). Reads ONLY `specs/01-descoberta.md` (or a briefing the user provides), runs a guided conversation (posicionamento → canais → plano de lançamento → funil/retenção conforme o cenário), prepares Google Ads plans for the user to decide (Ads is the user's specialty — the skill prepares, the user decides), and produces a single `specs/02-marketing.md` in European Portuguese. It does NOT define brand identity/visuals (phase 3), SEO/keyword strategy (core-04-seo), nor write final copy (branch content skills).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\core-02-marketing\\SKILL.md"
+  },
+  {
+    "name": "core-04-seo",
+    "description": "Use this skill for PHASE 4 of the common trunk (SEO & Arquitectura de Conteúdo) of any Closs Digital project — SaaS (A), WordPress site (B), WooCommerce store (C), or Landing Page (D). It replaces the former 03-seo-strategist and 03-wp-seo-strategist. Runs AFTER core-02-marketing (and the brand phase) and BEFORE the technical branch (architecture/PRD/requirements). Trigger on \"core-04-seo\", \"estratégia SEO\", \"és um SEO strategist\", \"keywords do produto/site/loja\", \"arquitectura de conteúdo\", \"Schema.org\", \"Core Web Vitals\", `/core-04-seo`, or when the user hands over `01-descoberta.md` and `02-marketing.md` for an SEO strategy. It is ALSO the single upstream input for the content skills — `04-seo-blog-writer`, `05-seo-landing-page-writer`, `06-seo-checklist` (scenario A/D) and `b-11-wp-blog-writer`, `b-12-wp-landing-page-writer`, `b-06-wp-seo-checklist` (scenarios B/C) read ONLY the `specs/04-seo.md` this skill produces. Depth adapts to the scenario: A completo (content architecture + programmatic content + tenant-SEO and root-namespace flags for the architect), B completo (SEO is the value engine — permalinks, CPT/taxonomy flags, Polylang/WPML, SEO-plugin formulas), C completo + product/category SEO (Woo categories, Product schema, faceted navigation), D leve on-page with emphasis on Google Ads Quality Score and message match. Works ONLY from the input files (or a free briefing), asks only when genuinely unclear, and produces a single `specs/04-seo.md` in European Portuguese. It does NOT classify concrete routes per rendering (architect), decide final page structure (requirements), design data models/CPTs (architecture), nor write the actual content (content skills).",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\core-04-seo\\SKILL.md"
+  },
+  {
+    "name": "pest-path-coverage-tests",
+    "description": "Use this skill to analyse a Pest coverage report line for a PHP file and write tests for the uncovered code paths. Trigger on \"pest-path-coverage-tests\", `/pest-path-coverage-tests`, when the user pastes a Pest coverage report line (e.g. \"app/Actions/Admin/ComputePlatformMetrics.php ..... 75%\"), or asks to cover the missing paths / uncovered lines of a class with Pest tests. Reads the target PHP file, and for EACH public method produces a review table (Path | Description | Covered? | Existing test | New test needed?). It STOPS after the table and waits for user feedback — it does NOT write any test yet. After the user reviews the table and confirms, it generates ONLY the tests marked \"New test needed\", never regenerating tests that already exist. Works from the file on disk plus the coverage percentage/missed-lines the report gives; if the file path or existing test location is unclear, it stops and asks.",
+    "triggers": "",
+    "path": "C:\\var\\www\\WordPress\\aisa-01\\.claude\\skills\\pest-path-coverage-tests\\SKILL.md"
+  },
+  {
+    "name": "a-04-saas-product-owner",
+    "description": "Use this skill whenever the user wants to write a Product Requirements Document (PRD) from a discovery, a risk assessment and an SEO strategy. FIRST step of branch A (SaaS), after the trunk SEO phase (`core-04-seo` → `04-seo.md`) and before the architect (`05-system-architecture.md`). Trigger on phrases like \"a-04-saas-product-owner\", \"product-owner\", \"escreve o PRD\", \"documento de requisitos de produto\", \"és um product owner e...\", \"define o MVP\", \"delimita o âmbito do produto\", \"saas-product-owner\", `/a-04-saas-product-owner`, or when the user provides `01-descoberta.md` and `04-seo.md` for a PRD. This is the PRD step between SEO strategy and architecture; it does NOT design a system, write data models, wireframes, specs, or an implementation plan. Works ONLY from the input files provided, never invents missing info (stops and asks), confirms scope/KPIs/prioritisation across separate gates, and produces a single `04-prd.md` in European Portuguese with measurable KPIs, a strictly-delimited MVP (including out-of-scope), MoSCoW-prioritised features, user flows, the public-page set inherited from the SEO strategy, and non-functional requirements (SSR/SEO, i18n PT/BR, performance).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\a-04-saas-product-owner\\SKILL.md"
+  },
+  {
+    "name": "a-05-saas-architect",
+    "description": "Use this skill to turn a SaaS product's PRD, SEO strategy and visual design into a system architecture — stack, data schema, the definitive route→rendering classification (SSR/Blade+islands vs SPA Inertia), and design-system mapping. FIFTH step of the SaaS workflow, after the product owner (`04-prd.md`) and SEO strategist (`04-seo.md`), and BEFORE the business analyst (`06-requirements.md`). Trigger on \"a-05-saas-architect\", \"arquitetura do sistema\", \"plano de arquitetura\", \"és um software architect Laravel\", \"saas-architect\", `/a-05-saas-architect`, or when the user hands over `04-prd.md`, `04-seo.md` and an external design file. Works only from the input files, classifies every route's rendering autonomously, confirms architecture and design mapping across two gates, and produces a single `05-system-architecture.md` in European Portuguese. It does NOT break work into implementation phases (that's the project manager, 07), write the Agile backlog (that's the business analyst, 06), or write code.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\a-05-saas-architect\\SKILL.md"
+  },
+  {
+    "name": "a-06-saas-business-analyst",
+    "description": "Use this skill to turn a PRD and a system architecture into a LIVING Agile product backlog — epics, user stories, Gherkin acceptance criteria, T-shirt estimates and a status column the developer keeps updated. SIXTH step of the SaaS workflow, after the architect (`05-system-architecture.md`) and before the project manager (`07`). Trigger on phrases like \"a-06-saas-business-analyst\", \"transforma o PRD em backlog\", \"escreve os requisitos Agile\", \"épicos e user stories\", \"critérios de aceitação\", \"és um business analyst Agile e...\", \"saas-business-analyst\", `/a-06-saas-business-analyst`, or when the user hands over `04-prd.md` and `05-system-architecture.md` to turn into a backlog. Works ONLY from the inputs provided (`04-prd.md`, `05-system-architecture.md`, optionally `01-descoberta.md` (Parte II — Risco)), never invents business rules (stops and asks), confirms epics / DoR-DoD / prioritisation in gates, then writes user stories (\"Como… quero… para…\") with Gherkin and estimates into a single `06-requirements.md` in European Portuguese — the living master plan that tracks what's built vs. pending and is retro-updated by the developer (08). Does NOT detail implementation specs (that's the project manager, 07) or write code.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\a-06-saas-business-analyst\\SKILL.md"
+  },
+  {
+    "name": "a-07-saas-project-manager",
+    "description": "Use this skill to turn a living Agile backlog and a system architecture into detailed, ordered implementation specs ready to hand to a coding agent. SEVENTH step of the SaaS workflow, after the business analyst (`06-requirements.md`) and the architect (`05-system-architecture.md`), before the developer (`08`). Trigger on \"a-07-saas-project-manager\", \"project manager\", \"divide o projeto em implementações\", \"plano de implementação\", \"prepara os requisitos para o programador\", \"próxima fase de implementação\", \"saas-project-manager\", `/a-07-saas-project-manager`, or when the user hands over `06-requirements.md` and `05-system-architecture.md` to break into implementation specs. Works only from the input files, confirms the full ordered implementation plan in a gate, then writes one detailed spec per implementation as `specs/07-FF-II-slug.md` (FF = implementation phase, II = sequential number) in European Portuguese — each a deliverable vertical slice with data model, backend, frontend, ordered tasks, acceptance criteria, verification commands and a ready-to-run developer prompt. Does NOT write code or modify the backlog.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\a-07-saas-project-manager\\SKILL.md"
+  },
+  {
+    "name": "a-08-saas-developer",
+    "description": "Use this skill to implement a single project implementation spec (`07-FF-II-slug.md`) as working Laravel + Inertia/React code, following the system architecture and the project conventions. EIGHTH and final step of the SaaS workflow, after the project manager (`07`). Trigger on \"a-08-saas-developer\", \"developer\", \"implementa a 07-FF-II\", \"implementa esta fase\", \"constrói esta implementação\", \"és um Laravel developer e...\", \"saas-developer\", `/a-08-saas-developer`, or when the user hands over a `07-FF-II-slug.md` spec to build. Reads the implementation spec plus `05-system-architecture.md` and `06-requirements.md`, reuses the starter kit (never reimplements Fortify/Sanctum/multitenancy/RBAC), implements the ordered tasks, runs the verification commands (migrations, Pest tests, build), and then marks the covered user stories as ✅ concluído in `06-requirements.md`. Works only from the spec and architecture; if a decision is missing, it stops and asks rather than inventing.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\a-08-saas-developer\\SKILL.md"
+  },
+  {
+    "name": "b-04-wp-architecture",
+    "description": "Use this skill to turn a WordPress project's discovery, risk assessment and SEO strategy into a high-level technical architecture — theme approach (block theme/FSE custom vs child vs bought), plugin families needed and why, the content model (Custom Post Types, taxonomies, ACF/custom fields), hosting/infrastructure, multilingual approach, performance and security baselines, and integrations. FIRST step of branch B (WordPress), after the trunk SEO phase (`core-04-seo` → `04-seo.md`) and before the requirements (`05-requirements.md`). Produces a LIVING `04-architecture.md` that is retro-fed: it separates the \"decision\" from the \"current state\" (which themes/plugins are actually installed and configured), so it tracks the project's real status over time. Trigger on \"b-04-wp-architecture\", \"arquitetura do site WordPress\", \"plano de arquitetura WordPress\", \"modelo de conteúdo / CPTs\", \"és um arquiteto WordPress\", \"wp-architecture\", `/b-04-wp-architecture`, or when the user hands over `01-descoberta.md` and `04-seo.md`. Works only from the input files, confirms the architecture across a gate, and writes `04-architecture.md` in European Portuguese. It decides WHAT and WHY (theme approach, plugin families, content model); the detailed theme spec is `b-07-wp-theme` and the detailed plugin list is `b-08-wp-plugins`. It does NOT write the page structure (that's requirements, 05) or build code (that's 09/10).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-04-wp-architecture\\SKILL.md"
+  },
+  {
+    "name": "b-05-wp-requirements",
+    "description": "Use this skill to turn a WordPress project's discovery, SEO strategy and architecture into a requirements document — the build broken into phases, plus the full page/sitemap structure where each page carries a content summary and its SEO intent. FIFTH step of the WordPress workflow, after the architecture (`04-architecture.md`) and before the SEO checklist (`06-seo-checklist.md`). Trigger on \"b-05-wp-requirements\", \"requisitos do site\", \"estrutura de páginas\", \"sitemap do projeto\", \"fases de construção do site\", \"és um analista de requisitos WordPress\", \"wp-requirements\", `/b-05-wp-requirements`, or when the user hands over `01-descoberta.md`, `04-seo.md` and `04-architecture.md`. Works from the input files, never invents pages or rules (stops and asks), confirms phasing and page structure in a gate, and produces a single `05-requirements.md` in European Portuguese: build phases, a complete page tree (institutional pages, blog, segment landing pages, CPT archives/singles) with per-page content summary and SEO intent (target keyword, title/meta formula, Schema.org), navigation, forms and functional requirements per page. It does NOT detail the theme (`07`), list plugins (`08`), produce the SEO checklist (`06`), or write content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-05-wp-requirements\\SKILL.md"
+  },
+  {
+    "name": "b-06-wp-seo-checklist",
+    "description": "Use this skill to produce, for a WordPress site, BOTH an extensive actionable SEO implementation checklist (online AND offline) AND one per-page SEO brief per page in the site structure. SIXTH step of the WordPress workflow, after the requirements (`05-requirements.md`); reads the SEO strategy (`04-seo.md`) for strategy and the requirements (`05-requirements.md`) for the concrete page structure. Trigger on \"b-06-wp-seo-checklist\", \"checklist de SEO do site\", \"SEO por página\", \"lista de ações de SEO WordPress\", \"o que falta no SEO\", \"wp-seo-checklist\", `/b-06-wp-seo-checklist`, or when the user hands over `04-seo.md` and `05-requirements.md` and asks for an SEO checklist / per-page SEO. Writes `06-seo-checklist.md` (an extensive Markdown checklist by category — technical/on-page, content, Schema.org, performance/CWV, i18n, off-page/local link building, offline/PR, measurement, per-phase roadmap — with checkboxes, owners and priorities, retro-fed as actions complete) AND one `06-seo-page-{slug}.md` per page (target keyword, title/meta filled per the strategy's formula, Schema.org, internal links, image/alt notes, indexability). Mostly autonomous; asks only if inputs are missing or critically ambiguous. Does NOT define strategy (`core-04-seo`), write page structure (`05`), write content (`11`/`12`), or detail theme/plugins (`07`/`08`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-06-wp-seo-checklist\\SKILL.md"
+  },
+  {
+    "name": "b-07-wp-theme",
+    "description": "Use this skill to write the detailed requirements specification for a WordPress site's theme — an exhaustive description of what the theme must have (block theme / Full Site Editing for WordPress 6.x+): templates and template parts derived from the page structure, theme.json design tokens and global styles, patterns/blocks, the admin control panel (Customizer/Site Editor options, theme settings), navigation, performance and accessibility requirements, and per-content-type templates for the CPTs. SEVENTH step of the WordPress workflow, after the requirements (`05-requirements.md`); also reads the architecture (`04-architecture.md`, theme approach + content model) and the per-page SEO (`06-seo-*`). Trigger on \"b-07-wp-theme\", \"requisitos do tema\", \"especificação do tema WordPress\", \"o que o tema tem de ter\", \"painel de controlo do tema\", \"block theme / FSE\", \"wp-theme\", `/b-07-wp-theme`, or when the user hands over `04-architecture.md` and `05-requirements.md` to spec the theme. Works from the input files, exhaustive in requirements, and produces a single `07-theme.md` in European Portuguese. It is the input for `b-09-wp-theme-developer` (which scaffolds the actual theme). It does NOT build the theme code (that's `09`), list plugins (that's `08`), or write page content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-07-wp-theme\\SKILL.md"
+  },
+  {
+    "name": "b-08-wp-plugins",
+    "description": "Use this skill to specify the plugins that will make up a WordPress site — concrete, named plugin recommendations organised by factor (SEO, security, performance, functionality, plus backups, forms, multilingual, e-commerce, analytics/consent), each with rationale, free vs premium, alternatives, and a clear \"market plugin vs build a custom plugin\" decision. EIGHTH step of the WordPress workflow, after the theme spec (`07-theme.md`); also reads the architecture (`04-architecture.md`, plugin families + integrations), the requirements (`05-requirements.md`, functional needs) and the risk assessment (`01-descoberta.md` (Parte II — Risco), security/maintenance/dependency risks). Trigger on \"b-08-wp-plugins\", \"que plugins instalar\", \"lista de plugins WordPress\", \"plugins de SEO/segurança/performance\", \"plugin próprio vs de mercado\", \"wp-plugins\", `/b-08-wp-plugins`, or when the user hands over `04-architecture.md` and `05-requirements.md` to choose plugins. Works from the input files, weighs each plugin as attack surface and maintenance cost, and produces a single `08-plugins.md` in European Portuguese. Where a need has no good market plugin, it flags \"develop a custom plugin\" as input for `b-10-wp-plugin-developer`. It does NOT build plugins (that's `10`), spec the theme (`07`), or write content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-08-wp-plugins\\SKILL.md"
+  },
+  {
+    "name": "b-09-wp-theme-developer",
+    "description": "Use this skill to scaffold and build the base structure of a WordPress block theme (Full Site Editing, WordPress 6.x+) from its theme specification — creating the real theme files (style.css, theme.json, templates/, parts/, patterns/, functions.php) so the theme can be activated and iterated on. NINTH step of the WordPress workflow and OPTIONAL — only invoked when the project actually needs a custom/child theme built. Reads the theme spec (`07-theme.md`) plus the architecture (`04-architecture.md`, theme approach + content model). Trigger on \"b-09-wp-theme-developer\", \"constrói o tema\", \"cria a estrutura do tema WordPress\", \"scaffold do block theme\", \"implementa o tema\", \"wp-theme-developer\", `/b-09-wp-theme-developer`, or when the user hands over `07-theme.md` and asks to build the theme. Implements the templates, template parts, theme.json tokens, patterns and theme-support from the spec; UI strings in European Portuguese via `__()`; then retro-updates the \"current state\" section of `04-architecture.md` (theme installed/configured). Works from the spec and architecture; if a decision is missing, it stops and asks rather than inventing. Does NOT define the theme spec (`07`), build plugins (`10`), or write page content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-09-wp-theme-developer\\SKILL.md"
+  },
+  {
+    "name": "b-10-wp-plugin-developer",
+    "description": "Use this skill to scaffold and build the base structure of a single custom WordPress plugin — creating the real plugin files (main plugin file with header, includes/, activation/deactivation hooks, optional CPT/taxonomy/REST/blocks) so the plugin can be activated and iterated on. TENTH step of the WordPress workflow and OPTIONAL — only invoked when the project actually needs a custom plugin built (a \"develop a custom plugin\" item the plugin spec flagged, or a need the user names at invocation). It is GENERIC: which plugin to build comes from the plugin spec (`08-plugins.md`, the \"plugins próprios\" section) or from the user at invocation. Also reads the architecture (`04-architecture.md`, content model + integrations). Trigger on \"b-10-wp-plugin-developer\", \"constrói o plugin\", \"cria um plugin WordPress\", \"scaffold de plugin próprio\", \"desenvolve o plugin X\", \"wp-plugin-developer\", `/b-10-wp-plugin-developer`, or when the user hands over `08-plugins.md` (or a plugin brief) and asks to build a plugin. Implements one plugin per run following WordPress plugin conventions; UI strings in European Portuguese via `__()`; escapes output; then retro-updates the \"current state\" section of `04-architecture.md`. Works from the spec/brief and architecture; if scope is missing, it stops and asks rather than inventing. Does NOT choose plugins (`08`), build the theme (`09`), or write content (`11`/`12`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-10-wp-plugin-developer\\SKILL.md"
+  },
+  {
+    "name": "b-11-wp-blog-writer",
+    "description": "Use this skill to write a single SEO-optimised blog article for a WordPress site as ready-to-publish content (a standalone HTML document whose body is clean, block-editor-friendly markup), driven by the user's chosen topic and obeying the project's SEO strategy. WordPress content skill, after the SEO strategy (`04-seo.md`); optionally reads the requirements (`05-requirements.md`) for the concrete blog/page structure. Trigger on \"b-11-wp-blog-writer\", \"escreve um artigo de blog para WordPress\", \"novo post WordPress\", \"artigo para o site\", \"és um SEO copywriter WordPress\", `/b-11-wp-blog-writer`, when the user types \"wp-blog-writer\", or when the user hands over `04-seo.md` and asks for a blog article. It reads `04-seo.md` (keywords, content architecture/pillar-cluster, differentiation message, metadata & Schema.org formulas, permalink/slug conventions, i18n) plus the topic the user names. Writes ONE article per run as `11-post-{NN}-{slug-post-title}.html` (NN = next sequential number, scanned from the output folder) — a standalone HTML document with an SEO `<head>` for preview AND a clean semantic `<body>` ready to paste into the WordPress block editor — AND maintains a cumulative `11-blog-assumptions.md` recording the assumptions, the SEO-plugin fields to fill (focus keyword, SEO title, meta description, slug), image suggestions, internal links and Schema notes. Asks when the topic, angle or target keyword is unclear. Does NOT define strategy (`core-04-seo`), write landing pages (`12`), or produce the SEO checklist (`06`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-11-wp-blog-writer\\SKILL.md"
+  },
+  {
+    "name": "b-12-wp-landing-page-writer",
+    "description": "Use this skill to write a single SEO-optimised, conversion-oriented landing page for a vertical/segment of a WordPress site as ready-to-publish content (a standalone HTML document whose body is clean, block-editor-friendly markup), obeying the project's SEO strategy. WordPress content skill, after the SEO strategy (`04-seo.md`); optionally reads the requirements (`05-requirements.md`) for the concrete segment-page structure. Trigger on \"b-12-wp-landing-page-writer\", \"escreve uma landing page para WordPress\", \"landing page para [segmento]\", \"página de segmento\", \"LP para [vertical]\", \"és um copywriter de landing pages WordPress\", `/b-12-wp-landing-page-writer`, when the user types \"wp-landing-page-writer\", or when the user hands over `04-seo.md` and asks for a segment landing page. It reads `04-seo.md` (vertical landing pages by segment, per-segment long-tail keywords, differentiation message, metadata & Schema.org formulas, permalink/slug conventions, i18n) plus the segment the user names. Writes ONE landing page per run as `12-lp-{NN}-{segmento}.html` (NN = next sequential number, scanned from the output folder) — a standalone HTML document with an SEO `<head>` for preview AND a conversion-structured `<body>` (hero, segment pain, benefits, features, social-proof placeholders, FAQ, CTA) ready to paste into the WordPress block editor — AND maintains a cumulative `12-landing-page-assumptions.md` recording assumptions, the SEO-plugin fields to fill, a CTA alert, image suggestions and Schema notes. Asks when the segment or angle is unclear. Does NOT define strategy (`core-04-seo`), write blog articles (`11`), or produce the SEO checklist (`06`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\b-12-wp-landing-page-writer\\SKILL.md"
+  },
+  {
+    "name": "brand-00-briefing",
+    "description": "Use this skill whenever the user wants to explore, structure, or pressure-test a brand's idea and context before any strategy, visual-identity or design-system work begins. FIRST step of the brand workflow. Trigger on phrases like \"discussão de marca\", \"vamos discutir a ideia da marca\", \"brand discussion\", \"vamos definir a marca\", \"és um brand discovery analyst\", \"identidade visual\", \"design system\" (when at the very start), when the user types \"brand-00-briefing\" or when the user invokes `/brand-00-briefing`. Also trigger when the user hands over a free briefing (a sentence or a document) about a company/product and wants it turned into structured brand context. This is the FIRST step of the brand workflow and makes it self-contained — it does NOT need a PRD. It does NOT define a brand strategy, naming, logo, colour palette, typography, requirements, or any design tokens; those belong to later steps. Runs a guided discussion (brand-problem → brand-audience → brand-personality → brand-constraints), researches 3-5 real competitors on the web and notes their visual language, and produces a single `/specs/brand-00-briefing.md` in European Portuguese.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\brand-00-briefing\\SKILL.md"
+  },
+  {
+    "name": "brand-01-strategist",
+    "description": "Use this skill whenever the user wants to define a brand's strategy — positioning, personality, archetype, tone of voice, and naming/tagline — before any requirements, visual-identity or design work begins. SECOND step of the brand workflow, between the briefing and the requirements step. Trigger on phrases like \"estratégia de marca\", \"brand strategy\", \"vamos definir o posicionamento\", \"tom de voz da marca\", \"és um brand strategist\", when the user types \"brand-01-strategist\" or when the user invokes `/brand-01-strategist`. Also trigger when the user hands over a `brand-00-briefing.md` and wants it turned into positioning, personality and tone of voice. It reads ONLY the `brand-00-briefing.md` it is given (no PRD or prior context needed), extracts tone of voice from the briefing or requests it from the user, runs a guided strategy conversation (brand-positioning → brand-personality → brand-voice → brand-naming), and produces a single `/specs/brand-01-strategy.md`. It makes NO visual decisions — no logo, colours, typography, or design tokens; those belong to later steps.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\brand-01-strategist\\SKILL.md"
+  },
+  {
+    "name": "brand-02-requirements",
+    "description": "Use this skill whenever the user wants to consolidate an agreed brand briefing and strategy into a REQUIREMENTS BRIEF that the visual-identity, design-system and brand-manual steps MUST obey. THIRD step of the brand workflow, after the strategy (`brand-01-strategy.md`) and before the visual identity. Trigger on phrases like \"requisitos da marca\", \"brand requirements\", \"brief da marca\", \"o que a identidade tem de cumprir\", \"consolidar os requisitos\", \"és um brand requirements analyst\", when the user types \"brand-02-requirements\" or when the user invokes `/brand-02-requirements`. Also trigger when the user hands over `brand-00-briefing.md` and `brand-01-strategy.md` and wants the agreed decisions and general directions turned into requirements the later artefacts must follow. Reads ONLY `brand-00-briefing.md` and `brand-01-strategy.md`, runs a focused conversation in the confirmed language to confirm the synthesis and capture the requirements/guardrails for each downstream artefact, and produces a single `/specs/brand-02-requirements.md`. It does NOT make creative decisions — no logo, final palette, typography choices, component design, or tokens; those belong to later steps.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\brand-02-requirements\\SKILL.md"
+  },
+  {
+    "name": "brand-03-visual-identity",
+    "description": "Use this skill whenever the user wants to translate an agreed brand requirements brief into a concrete visual identity — visual references, logo concept and SVGs, colour palette, typography, iconography/imagery, applications and visual principles — rendered as an HTML page. FOURTH step of the brand workflow, after the requirements brief (`brand-02-requirements.md`) and before the design system. Trigger on \"identidade visual\", \"visual identity\", \"vamos desenhar o logótipo\", \"paleta da marca\", \"referências visuais\", \"és um visual identity designer\", when the user types \"brand-03-visual-identity\" or `/brand-03-visual-identity`, or when the user hands over a `brand-02-requirements.md` to turn into a visual direction. Reads the `brand-02-requirements.md` given (with `brand-01-strategy.md` and `brand-00-briefing.md` as optional context), researches 3-5 real references on the web, runs a guided phase-by-phase conversation, proposes options and confirms before fixing a direction, generates draft logo SVGs, and produces `/specs/brand-03-visual-identity.html` — a self-contained page that SHOWS the identity. It decides the visual direction (logo, palette, typography, applications); the component-level token system, states and WCAG validation belong to later steps.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\brand-03-visual-identity\\SKILL.md"
+  },
+  {
+    "name": "brand-04-design-system",
+    "description": "Use this skill whenever the user wants to turn a brand visual identity into a technical design system — OKLCH design tokens, optional framework layer (Tailwind/shadcn, WordPress theme.json, or personalised), a WCAG AA contrast gate, and reference documentation. FIFTH step of the brand workflow, after the visual identity (`brand-03-visual-identity.html`) and before the brand manual (`brand-05-manual`). Trigger on \"design system\", \"sistema de design\", \"tokens OKLCH\", \"componentes da marca\", \"cores de texto/botões/cards\", \"és um design system engineer\", when the user types \"brand-04-design-system\" or `/brand-04-design-system`, or when the user hands over a `brand-03-visual-identity.html` to turn into a technical design system. Reads `brand-03-visual-identity.html` (and `brand-02-requirements.md` for scope), asks about framework choice (Tailwind/shadcn, WordPress theme.json, personalised, or none), derives exact OKLCH values from the brand palette, produces tokens with optional framework layer, a contrast gate, and documentation. Does NOT design a new identity or write the brand manual.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\brand-04-design-system\\SKILL.md"
+  },
+  {
+    "name": "brand-05-manual",
+    "description": "'Use this skill whenever the user wants to turn a finished visual identity and design system into a client-facing brand manual / guidelines. SIXTH and final step of the brand workflow, after the visual identity (`brand-03-visual-identity.html`) and the design system (`brand-04-design-system.md` + `tokens/`). Trigger on \"manual de marca\", \"brand manual\", \"brand guidelines\", \"normas gráficas\", when the user types \"brand-05-manual\" or `/brand-05-manual`, or when the user hands over a `brand-03-visual-identity.html` (and the design-system tokens) to turn into a manual. Reads `brand-03-visual-identity.html` and the logo SVGs (plus `brand-04-design-system.md`/`tokens/base.css` for final colours, and `brand-01-strategy.md`/`brand-02-requirements.md` for rationale), and produces a self-contained `brand-05-manual.html` in the language confirmed in the briefing (default European Portuguese): brand essence, logo (rendered inline; correct/incorrect uses, clear-space, sizes), colour (real swatches + HEX/RGB/CMYK), typography, tone of voice, and applications — digital and offline/print (cartão, sinalética, papelaria) — for a non-technical client, with no code jargon shown (no OKLCH/variables/tokens). Prints to PDF from the browser. Does NOT design a new identity or a design system.'",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\brand-05-manual\\SKILL.md"
+  },
+  {
+    "name": "core-00-intake",
+    "description": "Use this skill as the ORCHESTRATOR of the Closs Digital workflow — the intake router that starts every project and routes between phases. Trigger on \"core-00-intake\", \"novo projecto\", \"intake\", \"orquestrador\", \"que passo se segue\", \"onde estamos no workflow\", \"roteiro do projecto\", `/core-00-intake`, when the user hands over a client brief/form to start a project, or when the user asks which skill/phase comes next in an ongoing project. TWO modes: (1) INTAKE — reads the raw brief (n8n form output, client e-mail, or a short guided conversation), classifies the scenario (A SaaS · B WordPress · C WooCommerce · D Landing Page), fixes the depth of each phase from the §3 depth matrix, and produces `specs/00-brief.md` with the project roadmap (which skills, in which order, at which depth); (2) ROUTER — in an existing project, inspects `specs/` to see which artefacts exist and tells the user the next phase/skill, without running it. It does NOT run any phase itself — it routes. Minimal token weight by design: no web research, no long analysis; classification and routing only.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\core-00-intake\\SKILL.md"
+  },
+  {
+    "name": "core-01-descoberta",
+    "description": "Use this skill for PHASE 1 of the common trunk (Descoberta & Risco) of any Closs Digital project — SaaS (A), WordPress site (B), WooCommerce store (C), or Landing Page (D). It replaces the former 01-saas-idea-discussion, 01-wp-idea-discussion, 02-saas-risk-assessor and 02-wp-risk-assessor. Trigger on phrases like \"descoberta\", \"vamos discutir uma ideia\", \"tenho uma ideia\", \"tenho um site/loja/landing para fazer\", \"product discovery\", \"validar uma ideia\", \"avaliação de risco\", \"matriz de risco\", \"o que pode correr mal neste projecto\", when the user types \"core-01-descoberta\" or invokes `/core-01-descoberta`, or when a `specs/00-brief.md` exists and phase 1 has not run yet. Also trigger when the user hands over a free briefing about a product/site/store/landing and wants it turned into structured discovery. Runs in TWO stages with a gate between them: (1) guided discovery conversation (problema → público → proposta de valor → concorrência com pesquisa web → modelo de negócio), (2) risk assessment category by category with a probability × impact matrix and top 3 kill-switch risks. Depth adapts to the scenario (A completo, B leve, C médio, D leve) per the §3 depth matrix. Produces a SINGLE `specs/01-descoberta.md` in European Portuguese. It does NOT write marketing plans, SEO strategy, requirements, architecture, or specs — those belong to later phases (core-02-marketing, core-04-seo, and the scenario branches).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\core-01-descoberta\\SKILL.md"
+  },
+  {
+    "name": "core-02-marketing",
+    "description": "Use this skill for PHASE 2 of the common trunk (Posicionamento & Marketing) of any Closs Digital project — SaaS (A), WordPress site (B), WooCommerce store (C), or Landing Page (D). SECOND step of the trunk, after core-01-descoberta and before the brand phase (03) and core-04-seo. Trigger on phrases like \"posicionamento\", \"plano de marketing\", \"go-to-market\", \"plano de lançamento\", \"canais de aquisição\", \"funil de conversão\", \"és um estratega de marketing\", when the user types \"core-02-marketing\" or invokes `/core-02-marketing`, or when the user hands over a `01-descoberta.md` and wants the positioning and launch/channel plan. Depth adapts to the scenario (A completo/go-to-market, B leve, C médio/aquisição+retenção, D completo — CRO, funil e Ads são o núcleo do cenário D). Reads ONLY `specs/01-descoberta.md` (or a briefing the user provides), runs a guided conversation (posicionamento → canais → plano de lançamento → funil/retenção conforme o cenário), prepares Google Ads plans for the user to decide (Ads is the user's specialty — the skill prepares, the user decides), and produces a single `specs/02-marketing.md` in European Portuguese. It does NOT define brand identity/visuals (phase 3), SEO/keyword strategy (core-04-seo), nor write final copy (branch content skills).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\core-02-marketing\\SKILL.md"
+  },
+  {
+    "name": "core-04-seo",
+    "description": "Use this skill for PHASE 4 of the common trunk (SEO & Arquitectura de Conteúdo) of any Closs Digital project — SaaS (A), WordPress site (B), WooCommerce store (C), or Landing Page (D). It replaces the former 03-seo-strategist and 03-wp-seo-strategist. Runs AFTER core-02-marketing (and the brand phase) and BEFORE the technical branch (architecture/PRD/requirements). Trigger on \"core-04-seo\", \"estratégia SEO\", \"és um SEO strategist\", \"keywords do produto/site/loja\", \"arquitectura de conteúdo\", \"Schema.org\", \"Core Web Vitals\", `/core-04-seo`, or when the user hands over `01-descoberta.md` and `02-marketing.md` for an SEO strategy. It is ALSO the single upstream input for the SEO workflow skills — `seo-01-checklist` (living plan) → `seo-02-landing-page-writer` → `seo-03-blog-writer` (scenario A/D) and `b-06-wp-seo-checklist`, `b-11-wp-blog-writer`, `b-12-wp-landing-page-writer` (scenarios B/C) read ONLY the `specs/04-seo.md` this skill produces. Depth adapts to the scenario: A completo (content architecture + programmatic content + tenant-SEO and root-namespace flags for the architect), B completo (SEO is the value engine — permalinks, CPT/taxonomy flags, Polylang/WPML, SEO-plugin formulas), C completo + product/category SEO (Woo categories, Product schema, faceted navigation), D leve on-page with emphasis on Google Ads Quality Score and message match. Works ONLY from the input files (or a free briefing), asks only when genuinely unclear, and produces a single `specs/04-seo.md` in European Portuguese. It does NOT classify concrete routes per rendering (architect), decide final page structure (requirements), design data models/CPTs (architecture), nor write the actual content (content skills).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\core-04-seo\\SKILL.md"
+  },
+  {
+    "name": "pest-path-coverage-tests",
+    "description": "Use this skill to analyse a Pest coverage report line for a PHP file and write tests for the uncovered code paths. Trigger on \"pest-path-coverage-tests\", `/pest-path-coverage-tests`, when the user pastes a Pest coverage report line (e.g. \"app/Actions/Admin/ComputePlatformMetrics.php ..... 75%\"), or asks to cover the missing paths / uncovered lines of a class with Pest tests. Reads the target PHP file, and for EACH public method produces a review table (Path | Description | Covered? | Existing test | New test needed?). It STOPS after the table and waits for user feedback — it does NOT write any test yet. After the user reviews the table and confirms, it generates ONLY the tests marked \"New test needed\", never regenerating tests that already exist. Works from the file on disk plus the coverage percentage/missed-lines the report gives; if the file path or existing test location is unclear, it stops and asks.",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\pest-path-coverage-tests\\SKILL.md"
+  },
+  {
+    "name": "seo-01-checklist",
+    "description": "Use this skill to produce and MAINTAIN a LIVING SEO implementation plan (online AND offline actions) for a project, derived from its SEO strategy and from a GAP ANALYSIS of the project's current state. SECOND step of the SEO workflow, right after the SEO strategy (`core-04-seo` → `04-seo.md`) and BEFORE content production (`seo-02-landing-page-writer`, `seo-03-blog-writer`). Trigger on \"seo-01-checklist\", \"checklist de SEO\", \"plano SEO\", \"análise de gap SEO\", \"lista de ações de SEO\", \"o que falta implementar no SEO\", \"plano de implementação SEO\", \"checklist on-page e off-page\", `/seo-01-checklist`, when the user types \"seo-checklist\", or when the user hands over `04-seo.md` and asks for an implementation checklist/plan. It is INDEPENDENT — it does NOT see the conversation that produced the strategy; it reads ONLY `04-seo.md`, the observable current state of the project (for the gap analysis), and any existing `seo-checklist.md` (to update, never regenerate). It merges the strategy-derived actions with the bundled master verification checklist (`references/seo-master-checklist.md` — online and offline), marks each item feito/pendente/não-aplicável, and is retro-fed over time (the content writers tick published items; the team ticks completed actions; re-runs refresh the gap). Writes `/specs/seo-checklist.md`. Mostly autonomous; asks only if the strategy is missing, the project state cannot be observed, or something is critically ambiguous. Does NOT define strategy (`core-04-seo`), write landing pages (`seo-02-landing-page-writer`) or blog articles (`seo-03-blog-writer`). Scenarios B/C use `b-06-wp-seo-checklist` instead (which shares the same master checklist).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\seo-01-checklist\\SKILL.md"
+  },
+  {
+    "name": "seo-02-landing-page-writer",
+    "description": "Use this skill to write a single SEO-optimised, conversion-oriented landing page for a vertical/segment as a ready-to-publish standalone HTML document, obeying the project's SEO strategy. THIRD step of the SEO workflow, after the SEO strategy (`core-04-seo` → `04-seo.md`) and the living SEO plan (`seo-01-checklist` → `seo-checklist.md`); content production starts here (landing pages serve the launch; the blog, `seo-03-blog-writer`, is continuous and comes after). Trigger on \"seo-02-landing-page-writer\", \"escreve uma landing page\", \"landing page para [segmento]\", \"LP para freelancers/consultores/advogados\", \"página de segmento\", \"és um SEO copywriter de landing pages\", `/seo-02-landing-page-writer`, when the user types \"seo-landing-page-writer\", or when the user hands over `04-seo.md` and asks for a segment landing page. It is INDEPENDENT — it does NOT see the conversation that produced the strategy; it reads ONLY `04-seo.md` (vertical landing pages by segment, per-segment long-tail keywords, differentiation message, metadata & Schema.org formulas, URL/slug conventions, i18n) plus the segment the user names. Writes ONE landing page per run as `seo-lp-{NN}-{segmento}.html` (NN = next sequential number, scanned from the output folder) — a full standalone HTML document with SEO `<head>` (title, meta description, canonical, Open Graph, and the JSON-LD types the strategy defines for segment pages — e.g. `SoftwareApplication` for SaaS, `Service`/`LocalBusiness` for services, `Product` for e-commerce — plus `FAQPage`) and a conversion-structured `<body>` (hero, segment pain, benefits, features, social-proof placeholders, FAQ, CTA) — AND maintains a cumulative `seo-lp-assumptions.md` (created or updated, one section per segment) recording the honest notes to be completed with real data before publishing, a CTA alert, assumptions, image suggestions and SEO/conversion notes — AND ticks the corresponding content item in `seo-checklist.md` when it exists. Asks when the segment or its angle is unclear. Does NOT define strategy, maintain the SEO plan (that is `seo-01-checklist`), or write blog articles (that is `seo-03-blog-writer`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\seo-02-landing-page-writer\\SKILL.md"
+  },
+  {
+    "name": "seo-03-blog-writer",
+    "description": "Use this skill to write a single SEO-optimised blog article as a ready-to-publish standalone HTML document, driven by the user's chosen topic and obeying the project's SEO strategy. FOURTH and final step of the SEO workflow, after the SEO strategy (`core-04-seo` → `04-seo.md`), the living SEO plan (`seo-01-checklist`) and the segment landing pages (`seo-02-landing-page-writer`) — the blog is the continuous content engine that closes the chain. Trigger on \"seo-03-blog-writer\", \"escreve um artigo de blog\", \"blog writer SEO\", \"novo post para o blog\", \"artigo sobre …\", \"és um SEO copywriter\", `/seo-03-blog-writer`, when the user types \"seo-blog-writer\", or when the user hands over `04-seo.md` and asks for a blog article. It is INDEPENDENT — it does NOT see the conversation that produced the strategy; it reads ONLY `04-seo.md` (keywords, content architecture/pillar-cluster, differentiation message, metadata & Schema.org formulas, URL/slug conventions, i18n) plus the topic the user names. Writes ONE article per run as `seo-post-{NN}-{slug-post-title}.html` (NN = next sequential number, scanned from the output folder) — a full standalone HTML document with SEO `<head>` (title, meta description, canonical, Open Graph, `BlogPosting`/`Article` JSON-LD) and semantic `<body>` — AND maintains a cumulative `seo-blog-assumptions.md` (created or updated, one section per post) recording the assumptions made (domain, publication date, author, URL), image suggestions, internal links and SEO notes — AND ticks the corresponding content item in `seo-checklist.md` when it exists. Asks when the topic, angle or target keyword is unclear. Does NOT define strategy, maintain the SEO plan (that is `seo-01-checklist`), or write landing pages (that is `seo-02-landing-page-writer`).",
+    "triggers": "",
+    "path": "C:\\Users\\lucia\\.claude\\skills\\seo-03-blog-writer\\SKILL.md"
+  }
+]

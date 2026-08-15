@@ -1,0 +1,14 @@
+{
+  "$comment": "Pares texto-sobre-superfície que o modo --tokens (auto -foreground) não cobre: texto corrido, muted e links sobre fundo/superfície. Complementa a validação automática dos pares *-foreground. Modo claro apenas.",
+  "pairs": [
+    { "name": "foreground / background",        "fg": "oklch(0.285 0.004 84.6)", "bg": "oklch(0.991 0.003 84.6)", "large": false },
+    { "name": "foreground / surface",           "fg": "oklch(0.285 0.004 84.6)", "bg": "oklch(1 0 0)",            "large": false },
+    { "name": "muted-foreground / background",  "fg": "oklch(0.518 0.010 84.6)", "bg": "oklch(0.991 0.003 84.6)", "large": false },
+    { "name": "muted-foreground / surface",     "fg": "oklch(0.518 0.010 84.6)", "bg": "oklch(1 0 0)",            "large": false },
+    { "name": "muted-foreground / muted",       "fg": "oklch(0.518 0.010 84.6)", "bg": "oklch(0.962 0.004 84.6)", "large": false },
+    { "name": "link / background",              "fg": "oklch(0.45 0.12 248.2)",  "bg": "oklch(0.991 0.003 84.6)", "large": false },
+    { "name": "link / surface",                 "fg": "oklch(0.45 0.12 248.2)",  "bg": "oklch(1 0 0)",            "large": false },
+    { "name": "link-hover / background",        "fg": "oklch(0.38 0.11 248.2)",  "bg": "oklch(0.991 0.003 84.6)", "large": false },
+    { "name": "primary (título/ícone) / background", "fg": "oklch(0.548 0.136 248.2)", "bg": "oklch(0.991 0.003 84.6)", "large": true }
+  ]
+}

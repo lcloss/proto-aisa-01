@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- ESBOÇO — aproximação em traço dos três pictogramas do logótipo original; a versão final deve ser traçada a partir do vector real, não redesenhada de raiz -->
+  <text x="14" y="16" font-family="Arial, sans-serif" font-size="12" stroke="none" fill="currentColor" letter-spacing="1">ipss</text>
+
+  <!-- pictograma pessoa -->
+  <circle cx="70" cy="38" r="9"/>
+  <line x1="70" y1="47" x2="70" y2="72"/>
+  <line x1="70" y1="55" x2="48" y2="33"/>
+  <line x1="70" y1="55" x2="92" y2="33"/>
+  <circle cx="48" cy="33" r="3.5" fill="currentColor" stroke="none"/>
+  <circle cx="92" cy="33" r="3.5" fill="currentColor" stroke="none"/>
+  <line x1="70" y1="72" x2="54" y2="96"/>
+  <line x1="70" y1="72" x2="86" y2="96"/>
+
+  <!-- pictograma aperto de mão -->
+  <path d="M165 78 L192 60 L204 66 L215 55 L238 72 L216 84 L204 76 L192 84 Z"/>
+
+  <!-- pictograma coração -->
+  <path d="M330 96 C302 74 288 60 288 44 C288 31 298 22 310 22 C317 22 324 26 330 34 C336 26 343 22 350 22 C362 22 372 31 372 44 C372 60 358 74 330 96 Z"/>
+
+  <!-- wordmark -->
+  <text x="60" y="168" font-family="Arial, sans-serif" font-size="64" font-weight="700" stroke="none" fill="currentColor" letter-spacing="-1">AISA</text>
+</svg>

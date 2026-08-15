@@ -1,0 +1,31 @@
+{
+  "wordpress": {
+    "type": "full-install",
+    "version": "7.0",
+    "ecosystem": []
+  },
+  "php": {
+    "detected": false,
+    "tools": []
+  },
+  "node": {
+    "detected": false,
+    "tools": []
+  },
+  "styling": {
+    "systems": [
+      "scss"
+    ]
+  },
+  "supabase": {
+    "detected": false
+  },
+  "database": {
+    "orm": "wordpress-mysql"
+  },
+  "devops": {
+    "ci": []
+  },
+  "project_type": "wordpress",
+  "has_claude_md": false
+}
