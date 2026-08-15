@@ -53,7 +53,7 @@ Nota de mercado: os três sites de referência do cliente são todos WordPress �
 - **Modelo:** institucional (IPSS) — acordos com a Segurança Social, mensalidades comparticipadas, donativos e consignação de IRS. O site não gera receita directa; gera contactos, candidaturas e confiança.
 - **Orçamento/prazo:** orçamento por definir; prazo indicativo **1-2 meses** — mantido por decisão do utilizador e registado como risco (#4).
 - **Quem mantém:** conteúdos — equipa da AISA (não técnica); manutenção técnica — **por definir** (risco #3).
-- **Branding existente:** apenas o logótipo (`specs/logo-aisa.png`); identidade visual a criar de raiz (fase 3, pipeline completo).
+- **Branding existente:** apenas o logótipo (`specs/img/logo-aisa.png`); identidade visual a criar de raiz (fase 3, pipeline completo).
 - **Integrações obrigatórias:** nenhuma identificada nesta fase.
 - **Conteúdo a migrar:** nenhum — tudo criado de novo. Avaliar redireccionamentos 301 do site actual (risco #8).
 - **Infra:** domínio **aisaipss.pt** e hosting actuais mantêm-se; especificações desconhecidas — auditar antes da arquitectura (risco #5).

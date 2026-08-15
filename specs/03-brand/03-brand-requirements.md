@@ -24,7 +24,7 @@ Arquétipo: **o Cuidador (Caregiver)**.
 
 ## Restrições e não-negociáveis
 - **Nome:** AISA (Associação de Apoio Social Nossa Senhora da Assunção) — fixo, não se discute.
-- **Logótipo existente:** manter **tal e qual** (`specs/logo-aisa.png`) — a identidade constrói-se à volta dele, não o substitui nem o redesenha.
+- **Logótipo existente:** manter **tal e qual** (`specs/img/logo-aisa.png`) — a identidade constrói-se à volta dele, não o substitui nem o redesenha.
 - **Cores:** a paleta nova **parte obrigatoriamente das três cores do logótipo** — verde (≈#2E9A47), azul (≈#1B75BC), laranja (≈#E87722) — a harmonizar/disciplinar na fase 04, sem introduzir uma paleta que as ignore.
 - **Sector sério/social:** tom digno em toda a identidade; qualquer fotografia de pessoas reais implica consentimentos (risco RGPD herdado da fase 1 — a identidade não pode assumir uso livre de imagens de utentes).
 - **Acessibilidade:** público sénior com literacia digital limitada — legibilidade alta e contraste elevado são requisito de marca (não só de site); isto vincula directamente o gate WCAG AA da fase 05.

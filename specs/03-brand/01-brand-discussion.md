@@ -49,7 +49,7 @@ Nota de mercado: nenhuma IPSS pequena da zona (ex.: AISI, Murches) tem marca dig
 
 ## Restrições e não-negociáveis
 - **Nome:** definido — AISA (Associação de Apoio Social Nossa Senhora da Assunção); "IPSS" acompanha o logo actual.
-- **Logótipo existente:** **manter tal e qual** (`specs/logo-aisa.png`) — a identidade constrói-se à volta dele, não o substitui.
+- **Logótipo existente:** **manter tal e qual** (`specs/img/logo-aisa.png`) — a identidade constrói-se à volta dele, não o substitui.
 - **Cores:** a paleta nova **parte das três cores do logo** — verde (≈#2E9A47), azul (≈#1B75BC), laranja (≈#E87722) — a harmonizar/disciplinar na fase de identidade visual.
 - **Sector sério/social:** tom digno; fotografia de pessoas reais implica consentimentos (herda risco RGPD da fase 1).
 - **Acessibilidade:** público sénior — legibilidade alta e contraste são requisito de marca, não só de site.
